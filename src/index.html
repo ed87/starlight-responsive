@@ -45,7 +45,7 @@
         <img id="logo" alt="starlight logo" src="https://i.imgur.com/fMGVpco.jpeg" />
 
     </div>
-    <img id="banner" src="starlight.gif" alt="Banner" height="240">
+    <img id="banner" src="starlight.gif" alt="Banner">
 
     <h1 style="text-align:center; color: darkblue ">
         Welcome to Starlight
@@ -94,6 +94,36 @@
         Job openings</h2>
 
     <div id="jobs">
+
+
+        <div id="jobs-list">
+            <div class="job">
+                <div class="job-title">Frontend Developer</div>
+                <div class="job-detail">Addis Ababa, Ethiopia</div>
+                <div class="job-detail">$ 12,000</div>
+                <div class="job-detail">Posted Mar 3, 2023</div>
+            </div >
+            <div class="job">
+                <div class="job-title">Full Stack Developer</div>
+                <div class="job-detail">Bahir dar, Ethiopia</div>
+                <div class="job-detail">$ 15,000</div>
+                <div class="job-detail">Posted Feb 1, 2023</div>
+            </div>
+            <div class="job">
+                <div class="job-title">Cyber specialist</div>
+                <div class="job-detail">Gondar, Ethiopia</div>
+                <div class="job-detail">$175,000</div>
+                <div class="job-detail">Posted Dec 22, 2022</div>
+            </div>
+            <div class="job">
+                <div class="job-title">ML Engineer</div>
+                <div class="job-detail">Remote</div>
+                <div class="job-detail">$80,000</div>
+                <div class="job-detail">Posted Sep 19, 2022</div>
+            </div>
+        </div>
+
+
         <table id="jobs-table">
             <tr class="jobs-header-row">
                 <th rowspan="2">Job title </th>
@@ -177,16 +207,12 @@
                 <input type="tel" id="phone" name="phone" required placeholder="+919898989898">
             </div>
 
-            <div>
-
                 <div class="form-group">
                     <label for="dob">Date of Birth</label><br>
                     <input type="date" id="dob" name="dob" required>
                 </div>
 
-            </div>
-
-            <div class="form group">
+            <div class="form-group">
                 <label for="position">Position applied</label><br>
                 <select>
                     <option>Frontend developer </option>
@@ -194,6 +220,7 @@
                     <option>Cyber specialist </option>
                     <option>Machine learning</option>
                 </select>
+            </div>
                 <div class="form-group">
                     <label for="resume">Upload Resume</label><br>
                     <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
@@ -204,7 +231,7 @@
                     <textarea id="coverletter" name="coverletter" rows="5" required
                         placeholder="Explain what makes you suitable for the job.."></textarea>
                 </div>
-            </div>
+            
 
             <div class="form-group">
                 <label for="terms">

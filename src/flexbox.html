@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flexbox Practice</title>
+    <style>
+        #container {
+            background-color: coral;
+            border: 1px solid black;
+            font-family: sans-serif;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+        
+            /* flex-wrap: wrap-reverse; */
+            /* justify-content: center; */
+            height: 250px;
+            /* align-items: center; */
+
+        }
+        #item-1{
+           width: 20%;
+        }
+        #item-2{
+        width: 60%;
+        }
+
+        #item-3{
+           width: 20%;
+        }
+
+
+
+
+
+
+        #item-4 {
+            display: none;
+        }
+
+        .item {
+            border: 1px solid black;
+            padding: 10px;
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="item-1" class="item">
+            Item 1  
+        </div>
+        <div id="item-2" class="item">
+            Item 2  
+        </div>
+        <div id="item-3" class="item">
+            Item 3
+        </div>
+        <div id="item-4" class="item">
+            Item 4
+        </div>
+        <!-- /* <div id="item-5" class="item">
+                Item 5
+            </div>
+            <div id="item-6" class="item">
+                Item 6
+            </div>
+            <div id="item-7" class="item">
+                Item 7
+            </div>
+            <div id="item-8" class="item">
+                Item 8
+            </div> */ -->
+    </div>
+</body>
+
+</html>
